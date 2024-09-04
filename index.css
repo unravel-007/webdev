@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2? family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+.main {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+}
+#header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#prof {
+  font-weight: bolder;
+}
+.cont1 {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  width: fit-content;
+}
+#abt-head {
+  font-size: 20px;
+}
+#abt-para {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 500;
+}
+#abt {
+  width: 400px;
+  padding: 20px;
+  position: relative;
+  right: 20px;
+}
+#img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: relative;
+  top: 50px;
+  right: 30px;
+}
+#img img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 10px solid;
+}
+#img img:hover {
+  border: 10px solid rgb(101, 11, 228);
+}
+#details {
+  font-size: 20px;
+  position: relative;
+  top: 15px;
+}
+.tab1 {
+  text-align: center;
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+#tab {
+  float: left;
+  width: 600px;
+  height: 50px;
+  margin-left: 0;
+  position: relative;
+  right: 75px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+#vid {
+  height: 600px;
+  width: 100%;
+  position: relative;
+  left: 8px;
+}
+#lind:hover {
+  color: violet;
+}
+.music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 75px;
+}
+#song-title {
+  height: 300px;
+  width: 300px;
+}
+#btn {
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  font-size: 17px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+#btn:hover {
+  background: black;
+  color: white;
+}
